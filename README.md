@@ -93,7 +93,7 @@ pip install -r requirements.txt
 - **71.7% less energy consumption** per epoch
 - **99.998% parameter reduction** through transfer learning
 
- Model Architecture
+### Model Architecture
 
 Med-ViT uses Vision Transformer (ViT-B/16) with:
 
@@ -131,7 +131,7 @@ python Severity-Classification \
     --lr 1e-3
 ```
 
-Repository Structure
+### Repository Structure
 ```
 Med-ViT-Nail-Disease-Classification/
 ├── Disease-Classification       # Multi-class disease classification (4 classes)
@@ -142,7 +142,7 @@ Med-ViT-Nail-Disease-Classification/
 └── .gitignore                  # Git ignore rules
 ```
 
-Authors
+## Authors
 
 **Research Team**:
 - **Kaaviya Balamurugan** - bkaaviya24@gmail.com
@@ -153,7 +153,7 @@ Authors
 
 **Affiliation**: Department of Computer Science and Engineering (Artificial Intelligence and Machine Learning), Easwari Engineering College, Chennai, Tamil Nadu, India
 
-Citation
+## Citation
 
 If you use this code in your research, please cite our paper:
 ```bibtex
@@ -165,22 +165,22 @@ If you use this code in your research, please cite our paper:
 }
 ```
 
-License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Acknowledgments
+## Acknowledgments
 
 - Vision Transformer implementation based on [timm](https://github.com/huggingface/pytorch-image-models)
 - Dataset: [Kaggle Nail Disease Dataset](https://www.kaggle.com/datasets/nail-diseases)
 - Pretrained weights: ImageNet-21k
 
-Contact
+## Contact
 
 For questions, collaborations, or access to pre-trained weights:
 - **Corresponding Author**: Dr. Vanaja Selvaraj (vanaja.bensingh@gmail.com)
 
-Disclaimer
+## Disclaimer
 
 This model is intended for **research purposes only** and should not be used as a substitute for professional medical diagnosis. Always consult qualified healthcare professionals for medical advice and treatment decisions.
 
