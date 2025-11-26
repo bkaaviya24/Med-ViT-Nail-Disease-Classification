@@ -170,7 +170,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# ===== FINAL EVALUATION ON TEST SET =====
+# Final evaluation on test set
 print("\n" + "="*50)
 print("EVALUATING ON TEST SET")
 print("="*50)
