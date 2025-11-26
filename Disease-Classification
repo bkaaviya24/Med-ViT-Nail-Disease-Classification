@@ -170,7 +170,7 @@ ax2.set_xlim(0, len(results['train_acc']))
 plt.tight_layout()
 plt.show()
 
-# ===== FINAL EVALUATION ON TEST SET =====
+# final evaluation on test set
 print("\n" + "="*50)
 print("EVALUATING ON TEST SET")
 print("="*50)
